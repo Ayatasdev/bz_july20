@@ -1,0 +1,47 @@
+//html{ font-size: 10px; }
+$primary-color:#fbde22;
+
+
+
+// BugAnimation
+.logoMain:after {
+    width: 44px;
+    height: 34px;
+    position: absolute;
+    top: -3px;
+    content: "";
+    left: 40px;
+    background-image: url("../images/bee.png");
+    
+    -webkit-animation: play 6.5s steps(30) infinite;
+       -moz-animation: play 6.5s steps(30) infinite;
+        -ms-animation: play 6.5s steps(30) infinite;
+         -o-animation: play 6.5s steps(30) infinite;
+            animation: play 6.5s steps(30) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1320px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1320px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1320px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1320px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1320px; }
+} 
+

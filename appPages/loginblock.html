@@ -1,0 +1,31 @@
+<ion-view view-title="Sign-In" class="loginBg" name="login-view" animation="none">
+    <ion-content class="no-padding center screenfx" scroll="true" orientation="portrait">
+        <span class="close ion-ios-close-outline" ng-click="callHome()"></span>
+        <div class="clearfix"></div>
+        <div class="contentHoldmove">            
+            <div class="loginScreen">                
+                <div class="logoMain"><img src="images/logo.png" /></div>
+                <div class="formfield">
+                    <form name="form" ng-submit="login(dataLogin)" role="form">
+                        <div class="list">
+                            <label class="item">
+                                <i class="fa fa-user"></i>
+                                <input type="text" name="username" placeholder="username" class="formInput" ng-model="dataLogin.username" required />
+                            </label>
+                            <label class="item">
+                                <i class="fa fa-lock"></i>
+                                <input type="password" name="password" placeholder="Password" class="formInput" ng-model="dataLogin.password" required />
+                            </label>
+                        </div>
+                        <div class="loginBttns">
+                            <button type="submit" class="button yellow_bg">Log in to Bzzbook</button>
+                            <button class="normButton">Forgot Your Password ?</button>
+                            <div ng-show="error" class="alert alert-danger">{{error}}</div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

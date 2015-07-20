@@ -1,0 +1,17 @@
+<ion-view view-title="Registration OTP" name="login-view">
+    <ion-content class="padding">
+        <h2>Confirm OTP</h2>
+        <form name="form" ng-submit="otp(dataOTP)" role="form">
+            <div class="list list-inset">
+                <p>Please Confirm your OTP. </p>
+                <label class="item item-input">
+                    <input type="text" name="username" placeholder="Username" class="form-control" ng-model="dataOTP.otp" required />
+                </label>                                    
+            </div>
+            <button type="submit" class="button button-block button-positive">Send</button>
+        </form>
+        <form name="form2" ng-submit="resendOTP(dataOTP)" role="form">            
+            <button type="submit" class="button button-block button-positive">Re-Send OTP</button>
+        </form>
+    </ion-content>
+</ion-view> 

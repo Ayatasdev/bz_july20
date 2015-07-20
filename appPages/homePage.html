@@ -1,0 +1,30 @@
+
+<ion-view view-title="Home page" name="home-page">
+    <ion-header-bar class="bar bar-header searchTopBlock  item-input-inset">        
+        <img src="images/beeSmallLogo.png" class="imglogo" />
+        <label class="item-input-wrapper searchbar">
+            <i class="icon ion-ios-search placeholder-icon"></i>
+            <input type="search" placeholder="Search">
+        </label>
+        <div class="innersearchBlock">
+        </div>
+    </ion-header-bar>
+    <ion-tabs class="tabs-default tabs-striped tabs-top tabs-icon-only topTabScreen" on-swipe-right="goBack()" on-swipe-left="goForward()">
+        <ion-tab title="Home" icon-on="ion-ios-paper" icon-off="ion-ios-paper" hide-nav-bar="true" ui-sref="home.homeScreen">
+            <ion-nav-view name="home-tab"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="About" icon-on="ion-android-contacts" icon-off="ion-android-contacts">
+            <ion-nav-view name="register-tab"></ion-nav-view>
+        </ion-tab>
+        <ion-tab title="Settings" icon-on="ion-ios-chatboxes" icon-off="ion-ios-chatboxes">
+            <!-- Tab 3 content -->
+        </ion-tab>
+        <ion-tab title="Settings" icon-on="ion-ios-world" icon-off="ion-ios-world">
+            <!-- Tab 3 content -->
+        </ion-tab>
+        <ion-tab title="Settings" icon-on="ion-ios-keypad" icon-off="ion-ios-keypad">
+            <!-- Tab 3 content -->
+        </ion-tab>
+
+    </ion-tabs>   
+</ion-view>

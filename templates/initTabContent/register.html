@@ -1,0 +1,52 @@
+<ion-view view-title="About">
+    <ion-content class="padding">
+        <div class="col">
+            <h3>Sign Up Today!</h3>
+            <form name="form" ng-submit="register(dataRegister)" role="form" novalidate>
+                <div class="list">
+                    <label class="item item-input item-stacked-label">                        
+                        <input type="text" placeholder="John" ng-model="dataRegister.firstname" required>
+                        <p ng-show="dataRegister.firstname.$invalid" class="help-block">You name is required.</p>
+                    </label>
+                    <label class="item item-input item-stacked-label">                      
+                        <input type="text" placeholder="Suhr" ng-model="dataRegister.lastname" required>
+                    </label>
+                    <label class="item item-input item-stacked-label">                       
+                        <input type="text" placeholder="john@gm.com" ng-model="dataRegister.email" required>
+                    </label>
+                    <label class="item item-input item-stacked-label">                       
+                        <input type="text" placeholder="xxx-xxx-xxxx" ng-model="dataRegister.phone_number" required>
+                    </label>
+                    <label class="item item-input item-stacked-label">                       
+                        <input type="text" placeholder="john@suhr.com" ng-model="dataRegister.password" required>
+                    </label>
+                    <label class="item item-input item-stacked-label">                       
+                        <input type="text" placeholder="john@suhr.com" ng-model="dataRegister.passwordRe" compare-to="dataRegister.password" required>
+                    </label>
+                    <label class="item item-input item-stacked-label">                       
+                        <input type="text" placeholder="john@suhr.com" ng-model="dataRegister.dob" required>
+                    </label>
+                    <label class="item"> Gender</label>
+                    <div class="row">
+                        <label class="item item-radio col col-50">
+                            <input type="radio" name="group" ng-model="dataRegister.gender" value="m">
+                            <div class="item-content">
+                                male
+                            </div>
+                            <i class="radio-icon ion-checkmark"></i>
+                        </label>
+                        <label class="item item-radio col col-50">
+                            <input type="radio" name="group" ng-model="dataRegister.gender" value="f">
+                            <div class="item-content">
+                                Female
+                            </div>
+                            <i class="radio-icon ion-checkmark"></i>
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="button button-block button-positive">Register</button>
+            </form>
+            <div ng-show="error" class="alert alert-danger">{{error}}</div>
+        </div>
+    </ion-content>
+</ion-view>

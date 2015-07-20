@@ -1,0 +1,60 @@
+<ion-view view-title="Sign-In" class="loginBg" name="login-view">
+    <ion-content class="no-padding screenfx" scroll="true" orientation="portrait">
+        <div class="contentHold">
+            <div class="loginScreen">
+                <div class="formfield registerForm">                    
+                        <div class="list">
+                            <h3>Create An Account <span class="close ion-ios-close-outline" ng-click="callHome()"></span></h3>
+                            <form name="form" ng-submit="register(dataRegister)" role="form" novalidate>
+                                <div class="row">
+                                    <div class="col-75">
+                                        <label class="item item-input item-stacked-label">
+                                            <input type="text" class="formInput" placeholder="First Name" ng-model="dataRegister.firstname" required>
+                                        </label>
+                                        <label class="item item-input item-stacked-label">
+                                            <input type="text" class="formInput" placeholder="Last Name" ng-model="dataRegister.lastname" required>
+                                        </label>
+                                        <label class="item item-input item-stacked-label">
+                                            <input class="formInput" type="text" placeholder="Email" ng-model="dataRegister.email" required>
+                                        </label>
+                                    </div>
+                                    <div class="col">
+                                        <img src="images/userIMage.png" />
+                                    </div>
+                                </div>
+                                <label class="item item-input item-stacked-label">
+                                    <input class="formInput" type="text" placeholder="Phone Number" ng-model="dataRegister.phone_number" required>
+                                </label>
+                                <label class="item item-input item-stacked-label">
+                                    <input class="formInput" type="password" placeholder="Password" ng-model="dataRegister.password" required>
+                                </label>
+                                <label class="item item-input item-stacked-label">
+                                    <input class="formInput" type="password" placeholder="Confirm Password" ng-model="dataRegister.passwordRe" compare-to="dataRegister.password" required>
+                                </label>
+                                <label class="item item-input item-stacked-label">
+                                    <input class="formInput" type="text" onfocus="(this.type='date')" placeholder="Date of Birth" ng-model="dataRegister.dob" required>
+                                </label>
+
+                                <div class="radioControl">
+                                    <label class="item item-radio col-50">
+                                        <input type="radio" name="group" ng-model="dataRegister.gender" value="m">
+                                        <i class="radio-icon ion-checkmark"></i>
+                                        <div class="item-content">male</div>
+                                    </label>
+                                    <label class="item item-radio col-50">
+                                        <input type="radio" name="group" ng-model="dataRegister.gender" value="f">
+                                        <i class="radio-icon ion-checkmark"></i>
+                                        <div class="item-content">Female </div>
+                                    </label>
+                                </div>
+                                <div class="row"></div>
+                                <button type="submit" class="button regBtn yellow_bg">Register</button>
+                            </form>
+</div>
+                    
+                    <div ng-show="error" class="alert alert-danger">{{error}}</div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

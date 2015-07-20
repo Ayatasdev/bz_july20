@@ -1,0 +1,25 @@
+<ion-view title="Contact" class="tabListingTop">    
+    <ion-content>
+        <div class="posts">
+            <div class="postData" ng-repeat="postLink in postLinks">          
+                <div class="postDataMain">
+                    <div class="postUser">                        
+                        <img ng-src="http://bzzbook.com/uploads/{{postLink.posted_user_data.user_img_thumb == null | iif : 'default_profile_pic.png' : postLink.posted_user_data.user_img_thumb}}" alt="Description" />                     
+                    </div>                   
+                    <div class="postField">  
+                        <h4>{{postLink.posted_user_data.user_firstname}} {{postLink.posted_user_data.user_lastname}} <span ng-show='{{postLink.data.shared}}'><strong>Shared</strong></span> <span>{{postLink.time}}</span>  </h4>                                               
+                     </div>
+                    <div class="clearfix"></div>
+                    <div class="content-post" ng-class="{morePics: postLink.data.uploaded_files.split(',').length >= 6}">
+                        <p>{{postLink.data.post_content}}</p>
+                        <div class="postImages post-data-{{postLink.data.uploaded_files.split(',').length}}" ng-show="{{postLink.data.uploaded_files.length}}">
+                            <span ng-repeat="n in range(postLink.data.uploaded_files.split(',').length)" style="background:url(http://bzzbook.com/uploads/{{postLink.data.uploaded_files.length != 0 | iif : postLink.data.uploaded_files.split(',')[n] : ''}}) center center no-repeat"><i>+{{postLink.data.uploaded_files.split(',').length - 6 }}</i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p class="likeBtns"> <button class="linkBtns">Like {{postLink.likedetails.length == 0 | iif : "" : "("+postLink.likedetails.length+")"}}</button> <button class="linkBtns">Comment</button> <button class="linkBtns">Share</button></p>
+                    </div>
+                </div>                                
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

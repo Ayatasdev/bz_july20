@@ -1,0 +1,45 @@
+{
+  "ProjectName": "Bzzbook",
+  "ProjectGuid": "f4169d82-7e2e-4153-9f28-76dec2c57d49",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Bzzbook",
+  "DisplayName": "Bzzbook",
+  "Author": "",
+  "Description": "Bzzbook",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.7.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{c711a24d-5eac-4e76-b6c2-a8949e8bdfc0}",
+  "WP8ProductID": "{f081b497-4621-4ff3-b47d-f9efffb410cd}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Bzzbook",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}

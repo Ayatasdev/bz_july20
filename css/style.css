@@ -1,0 +1,556 @@
+/* line 7, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_variables.scss */
+.logoMain:after {
+  width: 44px;
+  height: 34px;
+  position: absolute;
+  top: -3px;
+  content: "";
+  left: 40px;
+  background-image: url("../images/bee.png");
+  -webkit-animation: play 6.5s steps(30) infinite;
+  -moz-animation: play 6.5s steps(30) infinite;
+  -ms-animation: play 6.5s steps(30) infinite;
+  -o-animation: play 6.5s steps(30) infinite;
+  animation: play 6.5s steps(30) infinite; }
+
+@-webkit-keyframes play {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -1320px; } }
+
+@-moz-keyframes play {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -1320px; } }
+
+@-ms-keyframes play {
+  /* line 34, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_variables.scss */
+  from {
+    background-position: 0px; }
+  /* line 35, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_variables.scss */
+  to {
+    background-position: -1320px; } }
+
+@-o-keyframes play {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -1320px; } }
+
+@keyframes play {
+  from {
+    background-position: 0px; }
+  to {
+    background-position: -1320px; } }
+
+/* line 1, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+input::-webkit-input-placeholder {
+  color: #232323; }
+
+/* Firefox < 19 */
+/* line 5, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+input:-moz-placeholder {
+  color: #232323; }
+
+/* Firefox > 19 */
+/* line 9, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+input::-moz-placeholder {
+  color: #232323; }
+
+/* Internet Explorer 10 */
+/* line 14, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+input:-ms-input-placeholder {
+  color: #232323; }
+
+/* line 17, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.clearfix {
+  clear: both; }
+
+/* line 18, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+/* line 49, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.has-tabs-top {
+  top: 0px !important; }
+
+/* line 50, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.tabs-top.tabs-striped .tab-item {
+  overflow: visible;
+  height: 45px; }
+  /* line 51, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+  .tabs-top.tabs-striped .tab-item span {
+    display: none; }
+
+/* line 53, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.tabs-top.tabs-striped .tab-item icon {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 45px; }
+
+/* line 55, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.tabs-top.tabs-striped .tab-item + .tab-item icon:after {
+  content: "";
+  position: absolute;
+  border-left: 1px solid #302d27;
+  left: 0px;
+  width: 1px;
+  top: 1px;
+  height: 100%; }
+
+/* line 56, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated {
+  margin: 0px;
+  border-bottom: 0px;
+  position: relative;
+  color: #cfbf9e; }
+
+/* line 57, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_ionicFix.scss */
+.tabs-top.tabs-striped .tab-item.tab-item-active:after, .tabs-top.tabs-striped .tab-item.active:after, .tabs-top.tabs-striped .tab-item.activated:after {
+  content: "\f35f";
+  position: absolute;
+  color: #222120;
+  font-family: "Ionicons";
+  left: 50%;
+  font-size: 40px;
+  text-align: center;
+  z-index: 99;
+  margin-left: -10px;
+  top: 29px; }
+
+@media all and (min-width: 768px) {
+  /* line 2, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/_responsive.scss */
+  .contentHold {
+    width: 70%;
+    margin: 0 auto; } }
+
+/* line 5, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.loginBg {
+  background: url(../images/bg_login.png) #f5ae18;
+  background-size: cover; }
+
+/* line 7, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.list .item {
+  background: rgba(255, 255, 255, 0.5);
+  margin: 10px 10px;
+  padding: 0em; }
+  /* line 11, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .list .item i {
+    float: left;
+    width: 2em;
+    line-height: 2.6em;
+    text-align: center; }
+  /* line 12, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .list .item .formInput {
+    float: left;
+    width: calc(100%-40px);
+    border: none;
+    background: none !important;
+    font-size: 1em;
+    line-height: 2.3em; }
+
+/* line 15, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.screenfx {
+  background: url(../images/topBGScreener.png);
+  background-size: 120% auto; }
+
+/* line 20, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.loginScreen img {
+  width: 90%;
+  height: auto;
+  margin: 0 5%; }
+
+/* line 22, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.loginBttns {
+  padding: 0px 10px 10px; }
+
+/* line 25, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.yellow_bg {
+  background: #fbde22;
+  box-shadow: 0px 0px 2px #000;
+  border: 0px; }
+
+/* line 30, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.normButton {
+  margin: 10px 0;
+  background: none;
+  border: none;
+  color: white; }
+
+/* line 37, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.registerBtn {
+  margin-top: 50px;
+  width: 100%; }
+
+/* line 41, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.signup {
+  padding-top: 30px; }
+  /* line 43, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .signup .button {
+    padding: 0 40px;
+    font-weight: 700; }
+  /* line 44, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .signup h4 {
+    font-size: 1.2em;
+    margin-top: 1.8em; }
+  /* line 45, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .signup .big {
+    font-size: 1.8em;
+    color: #000; }
+
+/* line 47, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.registerForm {
+  padding: 20px 0; }
+  /* line 49, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .registerForm h3 {
+    padding: 0 20px; }
+  /* line 50, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .registerForm .formInput {
+    line-height: 2.8em;
+    height: 3.2em;
+    padding-left: 10px; }
+
+/* line 52, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.regBtn {
+  padding: 0 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10px; }
+
+/* line 53, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.logoMain {
+  position: relative; }
+
+/* line 55, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl .item {
+  background: url(../images/bgRadio.png) left center no-repeat rgba(255, 255, 255, 0) !important;
+  border: none; }
+
+/* line 56, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl label {
+  background: none;
+  float: left; }
+  /* line 57, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .radioControl label i {
+    background: none; }
+  /* line 58, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .radioControl label .item-content {
+    background: none;
+    font-size: 16px;
+    padding-right: 0px !important;
+    color: #000; }
+
+/* line 60, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl .radio-icon {
+  position: relative; }
+
+/* line 61, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl i {
+  line-height: 1em !important;
+  width: 2em;
+  color: #fff; }
+
+/* line 62, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl .item-radio input:checked ~ .item-content {
+  background: none; }
+
+/* line 63, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.radioControl .item-radio .item-content {
+  padding: 16px 20px 16px 2px !important; }
+
+/* line 65, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.close {
+  display: block;
+  float: right;
+  font-size: 30px; }
+
+/* line 67, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.searchTopBlock {
+  background: url(../images/topImmerScreen.png) left center no-repeat #f5ae18;
+  background-size: auto 100%;
+  height: 50px;
+  padding: 0px;
+  top: 0px; }
+  /* line 68, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .searchTopBlock .searchbar {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    margin-left: 10px;
+    position: relative; }
+  /* line 69, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .searchTopBlock .innersearchBlock {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    background: url(../images/topImmerScreen.png) right center no-repeat #f5ae18;
+    background-size: auto 100%; }
+
+/* line 72, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.tabs-top > .tabs, .tabs.tabs-top {
+  top: 0px !important; }
+
+/* line 73, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.imglogo {
+  width: auto;
+  height: 40px; }
+
+/* line 74, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.topTabScreen .tab-nav {
+  background: #222120;
+  position: relative;
+  z-index: 999; }
+
+/* line 75, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.topTabScreen .icon + .icon {
+  background: #fff; }
+
+/* line 79, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.posts {
+  background: #f0efef;
+  padding: 20px 10px 100px; }
+  /* line 82, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .posts .postData {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f7f4f4; }
+    /* line 84, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .posts .postData .postDataMain .postUser {
+      float: left;
+      width: 70px; }
+      /* line 87, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+      .posts .postData .postDataMain .postUser img {
+        width: 100%;
+        height: 100%; }
+    /* line 89, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .posts .postData .postDataMain .postField {
+      padding-left: 10px;
+      width: calc(100% - 100px) !important;
+      float: left; }
+      /* line 93, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+      .posts .postData .postDataMain .postField h4 {
+        font-weight: 700;
+        color: #7a7a7a;
+        font-size: 18px; }
+        /* line 94, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+        .posts .postData .postDataMain .postField h4 span {
+          font-weight: 400;
+          font-size: 12px;
+          display: block; }
+    /* line 99, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .posts .postData .postDataMain .content-post .likeBtns {
+      padding-top: 10px;
+      margin-bottom: 0px; }
+    /* line 100, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .posts .postData .postDataMain .content-post .linkBtns {
+      border: none;
+      background: none;
+      color: #8b8b8b; }
+
+/* line 108, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.postImages span {
+  display: block;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  background-size: cover !important; }
+  /* line 108, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .postImages span i {
+    display: none; }
+
+/* line 109, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.postImages img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 1%; }
+
+/* line 112, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.postImages.post-data-3 span {
+  width: 100%;
+  height: 200px; }
+  /* line 113, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .postImages.post-data-3 span + span {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 100px; }
+    /* line 114, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .postImages.post-data-3 span + span + span:after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      border-left: 1px solid #fff;
+      height: 100%; }
+
+/* line 119, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.postImages.post-data-4 span {
+  width: 100%; }
+  /* line 120, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .postImages.post-data-4 span + span {
+    width: 33.3%;
+    float: left;
+    position: relative;
+    height: 100px; }
+    /* line 121, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .postImages.post-data-4 span + span + span:after {
+      content: "";
+      position: absolute;
+      left: 0px;
+      border-left: 1px solid #fff;
+      height: 100%; }
+
+/* line 126, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.postImages.post-data-5 span {
+  width: 50%;
+  height: 150px;
+  float: left; }
+  /* line 127, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .postImages.post-data-5 span + span {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 100px; }
+    /* line 128, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .postImages.post-data-5 span + span + span {
+      height: 100px; }
+      /* line 129, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+      .postImages.post-data-5 span + span + span + span {
+        height: 150px;
+        margin-top: -50px; }
+        /* line 130, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+        .postImages.post-data-5 span + span + span + span + span {
+          height: 100px;
+          margin-top: 0px; }
+
+/* line 141, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.morePics .postImages span {
+  width: 50%;
+  height: 150px;
+  float: left; }
+  /* line 141, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .morePics .postImages span i {
+    display: none; }
+  /* line 142, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .morePics .postImages span + span {
+    width: 50%;
+    float: left;
+    position: relative;
+    height: 100px; }
+    /* line 143, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+    .morePics .postImages span + span + span {
+      height: 100px; }
+      /* line 144, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+      .morePics .postImages span + span + span + span {
+        height: 150px;
+        margin-top: -50px; }
+        /* line 145, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+        .morePics .postImages span + span + span + span + span {
+          height: 100px;
+          margin-top: 0px;
+          position: relative; }
+          /* line 146, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+          .morePics .postImages span + span + span + span + span i {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            bottom: 0px;
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            display: block;
+            line-height: 100px;
+            text-align: center;
+            font-size: 24px; }
+          /* line 147, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+          .morePics .postImages span + span + span + span + span + span {
+            display: none; }
+
+/* line 160, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.transparent {
+  background: transparent !important; }
+
+/* line 163, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.image-modal {
+  width: 100% !important;
+  height: 100%;
+  top: 0 !important;
+  left: 0 !important; }
+
+/* line 169, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.fullscreen-image {
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0; }
+
+/* line 180, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+.slider {
+  width: 100%;
+  height: 100%; }
+
+/* line 185, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+p.info {
+  position: absolute;
+  bottom: 55px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: #ffffff; }
+
+/* Fix modal backdrop for smaller devices */
+@media (max-width: 679px) {
+  /* line 198, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .active .modal-backdrop-bg {
+    opacity: .5; }
+  /* line 201, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .modal-backdrop-bg {
+    -webkit-transition: opacity 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+    background-color: #000;
+    opacity: 0; } }
+
+@media (min-width: 400px) {
+  /* line 209, D:/Abid/Application/telerik/bzzbook/Bzzbook/Bzzbook/css/style.scss */
+  .postImages {
+    width: 400px; } }
+
+/*# sourceMappingURL=style.css.map */
