@@ -49,6 +49,6 @@ angular.module("buzzbook", ["ionic"])
          templateUrl: 'templates/regSuccess.html',
          controller: 'otpSuccessCntrl'
      })
-   // $urlRouterProvider.otherwise('/appintro');
-   $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/appintro');
+  // $urlRouterProvider.otherwise('/home');
 })

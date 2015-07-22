@@ -1,5 +1,5 @@
 angular.module("buzzbook")
-.controller('LoginCtrl', ['$scope', '$rootScope', '$location', 'AuthenticationService',
+.controller('LoginCtrl', ['$scope', 'globalBuzz', '$rootScope', '$location', 'AuthenticationService',
     function ($scope, $rootScope, $location, AuthenticationService) {
         $scope.userDetails = {};
         $scope.data = {};
@@ -13,7 +13,10 @@ angular.module("buzzbook")
             AuthenticationService.Login(dataLogin.username, dataLogin.password, function (response) {
                 if (response.success) {
                   //  AuthenticationService.SetCredentials(response.result[0].user_city, response.result[0].user_name);
-                    $location.path('/home');                    
+                    $location.path('/home');
+                    globalBuzz.authorizeCode = response.result[0].access_token;
+                    console.log(response.result[0].access_token);
+
                     //$scope.userDetails = response.result[0];                                       
                     // console.log("LOGIN user: " + $scope.data.username + " - PW: " + $scope.data.password);
                 } else {
